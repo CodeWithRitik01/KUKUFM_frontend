@@ -1,0 +1,12 @@
+.dummyOuter{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, white, rgb(252, 252, 120));
+    color: orangered;
+    height: 100vh;
+    width: 100vw;
+}
+
+.dummyOuter > h1{
+    margin-top: 200px;
+}

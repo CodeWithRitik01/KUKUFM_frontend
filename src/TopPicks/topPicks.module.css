@@ -1,0 +1,19 @@
+
+.allItems{
+    display: flex;
+    margin:20px;
+}
+
+.containerDiv > img{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerDiv > h4{
+    text-align: center;
+}

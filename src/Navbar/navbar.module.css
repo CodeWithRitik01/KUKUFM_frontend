@@ -1,0 +1,150 @@
+.main{
+  width: 100%;
+  height: 70px;
+  background-image: linear-gradient( to bottom , rgb(255, 96, 56),rgb(238, 67, 4));
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.menu{
+  height: 60%;
+  width: 2.5%;
+}
+
+.logo{
+  height: 100%;
+  width: 40%;
+}
+
+.navInput{
+  background-image: linear-gradient( to bottom , rgb(255, 96, 56),rgb(238, 67, 4));
+  border: 1px solid white;
+  height: 50%;
+  width: 30%;
+  border-radius: 10px;
+}
+
+.navInput::placeholder {
+  color: rgb(220, 219, 219);
+  opacity: 1;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  padding-top: 10px;
+  margin-left: -200px;
+
+}
+
+/* Links inside the dropdown */
+.dropdownContent div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdownContent {
+  display: block; 
+  color: black;
+  display: flex;
+  height: 260px;
+  width: 380px;
+  flex: 3;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  cursor: pointer;
+  
+}
+
+.dropdown:hover .dropbtn  {background-color: white; color: black;    cursor: pointer; }
+.dropdown:hover .chosenLang {
+  color:black
+}
+
+.dropdown:hover .dropdownImg {background-color: white; color: black; height: 70; width: 10px;    cursor: pointer;}
+
+.dropdownImg{
+  height: 12px;
+  width: 12px;
+}
+
+.applyButton{
+  height: 50px;
+  width: 90%;
+  border-radius: 10px;
+  background-image: linear-gradient( to bottom , rgb(255, 96, 56),rgb(238, 67, 4));
+  border: 0px;
+}
+  
+p{
+  width: 100%;
+  font-style:italic;
+}
+
+.downloadBtn{
+  height: 25px;
+  width: 25px;
+}
+
+.otherNav:hover{
+  cursor: pointer;
+}
+
+
+
+.chosenLang{
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+@media (max-width:768px){
+    .mobView{
+       display: none;
+    }
+    .logo{
+      margin-right: -150px;
+      
+    }
+    .menu{
+      margin: 0px 10px 0px 10px;
+      width: 30px;
+    }
+}

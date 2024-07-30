@@ -1,0 +1,107 @@
+/* overlay.module.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    z-index: 1000;
+  
+  }
+  
+  .overlayContent {
+    background: white;
+    padding: 20px;
+    width: 345px;
+    border-radius: 8px;
+    position: relative;
+    color: black;
+    overflow-y:scroll ;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+
+.logo{
+border-radius: 10px;
+position: relative;
+left: 50px;
+
+}
+
+ul{
+    width: 345px;
+    margin-left: -60px;
+}
+.loginBar{
+     background-color: antiquewhite;
+     display: flex;
+     align-items: center;
+     height: 100%;
+     width: 100%;
+}
+
+.outLogin{
+   height: 100%;
+   width: 100%;
+}
+
+.loginBar > img{
+    height: 20px;
+    width: 30px;
+}
+
+li{
+    border-bottom: 1px solid black;
+    width: 100%;
+    list-style-type:none ;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    color:black
+}
+
+h2{
+    font-weight: 200;
+}
+
+.freeTrial{
+    display: flex;
+    align-items: center;
+}
+
+.freeTrial > img{
+    height: 30px;
+    width: 30px;
+}
+
+.career{
+    display: flex;
+    align-items: center;
+}
+
+.career > img{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+li:hover{
+    background-color:rgb(237, 236, 236);
+    cursor: pointer;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}

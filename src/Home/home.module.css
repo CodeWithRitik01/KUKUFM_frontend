@@ -1,0 +1,8 @@
+.allCards{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
