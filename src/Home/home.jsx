@@ -58,7 +58,7 @@ function Home(){
               shiftImage(count);
             }
           }, 2000)
-          console.log(count)
+    
         }
       }
       
