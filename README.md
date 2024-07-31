@@ -46,7 +46,7 @@ Running the Project Locally
 
 Start the development server:
 
-npm run dev
+npm start
 
 Open your browser and navigate to http://localhost:3000.
 
