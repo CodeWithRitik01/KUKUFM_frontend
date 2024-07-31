@@ -17,3 +17,15 @@
 .containerDiv > h4{
     text-align: center;
 }
+
+
+@media (max-width:768px){
+    .containerDiv > img{
+        height: 40px;
+        width: 40px;
+    }
+    .containerDiv > h4{
+       font-size: 15px;
+    }
+
+}
